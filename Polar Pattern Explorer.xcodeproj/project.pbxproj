@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2FD4251F346FDB0027C20C /* PolarPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2FD4241F346FDB0027C20C /* PolarPattern.swift */; };
+		5E3E16DF1F303FFF008C434D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3E16DE1F303FFF008C434D /* AppDelegate.swift */; };
+		5E3E16E11F303FFF008C434D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3E16E01F303FFF008C434D /* Assets.xcassets */; };
+		5E3E16E41F303FFF008C434D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E3E16E21F303FFF008C434D /* MainMenu.xib */; };
+		5E3E16EF1F304000008C434D /* Polar_Pattern_ExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3E16EE1F304000008C434D /* Polar_Pattern_ExplorerTests.swift */; };
+		5E3E16FA1F304000008C434D /* Polar_Pattern_ExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3E16F91F304000008C434D /* Polar_Pattern_ExplorerUITests.swift */; };
+		5E3E17081F3059F0008C434D /* DegreesToRadiansExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3E17071F3059F0008C434D /* DegreesToRadiansExtension.swift */; };
+		5E3E170A1F3060DF008C434D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3E17091F3060DF008C434D /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E3E16EB1F304000008C434D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E3E16D31F303FFF008C434D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3E16DA1F303FFF008C434D;
+			remoteInfo = "Polar Pattern Explorer";
+		};
+		5E3E16F61F304000008C434D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E3E16D31F303FFF008C434D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3E16DA1F303FFF008C434D;
+			remoteInfo = "Polar Pattern Explorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E2FD4241F346FDB0027C20C /* PolarPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolarPattern.swift; path = "../../Polar Pattern Explorer 2/Polar Pattern Explorer/PolarPattern.swift"; sourceTree = "<group>"; };
+		5E3E16DB1F303FFF008C434D /* Polar Pattern Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polar Pattern Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3E16DE1F303FFF008C434D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E3E16E01F303FFF008C434D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E3E16E31F303FFF008C434D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5E3E16E51F303FFF008C434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3E16EA1F304000008C434D /* Polar Pattern ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polar Pattern ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3E16EE1F304000008C434D /* Polar_Pattern_ExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polar_Pattern_ExplorerTests.swift; sourceTree = "<group>"; };
+		5E3E16F01F304000008C434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3E16F51F304000008C434D /* Polar Pattern ExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polar Pattern ExplorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3E16F91F304000008C434D /* Polar_Pattern_ExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polar_Pattern_ExplorerUITests.swift; sourceTree = "<group>"; };
+		5E3E16FB1F304000008C434D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3E17071F3059F0008C434D /* DegreesToRadiansExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesToRadiansExtension.swift; sourceTree = "<group>"; };
+		5E3E17091F3060DF008C434D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E3E16D81F303FFF008C434D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3E16E71F304000008C434D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3E16F21F304000008C434D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E3E16D21F303FFF008C434D = {
+			isa = PBXGroup;
+			children = (
+				5E3E16DD1F303FFF008C434D /* Polar Pattern Explorer */,
+				5E3E16ED1F304000008C434D /* Polar Pattern ExplorerTests */,
+				5E3E16F81F304000008C434D /* Polar Pattern ExplorerUITests */,
+				5E3E16DC1F303FFF008C434D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E3E16DC1F303FFF008C434D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E3E16DB1F303FFF008C434D /* Polar Pattern Explorer.app */,
+				5E3E16EA1F304000008C434D /* Polar Pattern ExplorerTests.xctest */,
+				5E3E16F51F304000008C434D /* Polar Pattern ExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E3E16DD1F303FFF008C434D /* Polar Pattern Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				5E3E16DE1F303FFF008C434D /* AppDelegate.swift */,
+				5E3E16E01F303FFF008C434D /* Assets.xcassets */,
+				5E3E16E21F303FFF008C434D /* MainMenu.xib */,
+				5E3E17091F3060DF008C434D /* MainView.swift */,
+				5E2FD4241F346FDB0027C20C /* PolarPattern.swift */,
+				5E3E16E51F303FFF008C434D /* Info.plist */,
+				5E3E17071F3059F0008C434D /* DegreesToRadiansExtension.swift */,
+			);
+			path = "Polar Pattern Explorer";
+			sourceTree = "<group>";
+		};
+		5E3E16ED1F304000008C434D /* Polar Pattern ExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3E16EE1F304000008C434D /* Polar_Pattern_ExplorerTests.swift */,
+				5E3E16F01F304000008C434D /* Info.plist */,
+			);
+			path = "Polar Pattern ExplorerTests";
+			sourceTree = "<group>";
+		};
+		5E3E16F81F304000008C434D /* Polar Pattern ExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3E16F91F304000008C434D /* Polar_Pattern_ExplorerUITests.swift */,
+				5E3E16FB1F304000008C434D /* Info.plist */,
+			);
+			path = "Polar Pattern ExplorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E3E16DA1F303FFF008C434D /* Polar Pattern Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3E16FE1F304000008C434D /* Build configuration list for PBXNativeTarget "Polar Pattern Explorer" */;
+			buildPhases = (
+				5E3E16D71F303FFF008C434D /* Sources */,
+				5E3E16D81F303FFF008C434D /* Frameworks */,
+				5E3E16D91F303FFF008C434D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polar Pattern Explorer";
+			productName = "Polar Pattern Explorer";
+			productReference = 5E3E16DB1F303FFF008C434D /* Polar Pattern Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E3E16E91F304000008C434D /* Polar Pattern ExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3E17011F304000008C434D /* Build configuration list for PBXNativeTarget "Polar Pattern ExplorerTests" */;
+			buildPhases = (
+				5E3E16E61F304000008C434D /* Sources */,
+				5E3E16E71F304000008C434D /* Frameworks */,
+				5E3E16E81F304000008C434D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3E16EC1F304000008C434D /* PBXTargetDependency */,
+			);
+			name = "Polar Pattern ExplorerTests";
+			productName = "Polar Pattern ExplorerTests";
+			productReference = 5E3E16EA1F304000008C434D /* Polar Pattern ExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E3E16F41F304000008C434D /* Polar Pattern ExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3E17041F304000008C434D /* Build configuration list for PBXNativeTarget "Polar Pattern ExplorerUITests" */;
+			buildPhases = (
+				5E3E16F11F304000008C434D /* Sources */,
+				5E3E16F21F304000008C434D /* Frameworks */,
+				5E3E16F31F304000008C434D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3E16F71F304000008C434D /* PBXTargetDependency */,
+			);
+			name = "Polar Pattern ExplorerUITests";
+			productName = "Polar Pattern ExplorerUITests";
+			productReference = 5E3E16F51F304000008C434D /* Polar Pattern ExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E3E16D31F303FFF008C434D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = george;
+				TargetAttributes = {
+					5E3E16DA1F303FFF008C434D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5E3E16E91F304000008C434D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E3E16DA1F303FFF008C434D;
+					};
+					5E3E16F41F304000008C434D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E3E16DA1F303FFF008C434D;
+					};
+				};
+			};
+			buildConfigurationList = 5E3E16D61F303FFF008C434D /* Build configuration list for PBXProject "Polar Pattern Explorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E3E16D21F303FFF008C434D;
+			productRefGroup = 5E3E16DC1F303FFF008C434D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E3E16DA1F303FFF008C434D /* Polar Pattern Explorer */,
+				5E3E16E91F304000008C434D /* Polar Pattern ExplorerTests */,
+				5E3E16F41F304000008C434D /* Polar Pattern ExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E3E16D91F303FFF008C434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3E16E11F303FFF008C434D /* Assets.xcassets in Resources */,
+				5E3E16E41F303FFF008C434D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3E16E81F304000008C434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3E16F31F304000008C434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E3E16D71F303FFF008C434D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3E16DF1F303FFF008C434D /* AppDelegate.swift in Sources */,
+				5E2FD4251F346FDB0027C20C /* PolarPattern.swift in Sources */,
+				5E3E170A1F3060DF008C434D /* MainView.swift in Sources */,
+				5E3E17081F3059F0008C434D /* DegreesToRadiansExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3E16E61F304000008C434D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3E16EF1F304000008C434D /* Polar_Pattern_ExplorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3E16F11F304000008C434D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3E16FA1F304000008C434D /* Polar_Pattern_ExplorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E3E16EC1F304000008C434D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3E16DA1F303FFF008C434D /* Polar Pattern Explorer */;
+			targetProxy = 5E3E16EB1F304000008C434D /* PBXContainerItemProxy */;
+		};
+		5E3E16F71F304000008C434D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3E16DA1F303FFF008C434D /* Polar Pattern Explorer */;
+			targetProxy = 5E3E16F61F304000008C434D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E3E16E21F303FFF008C434D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3E16E31F303FFF008C434D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E3E16FC1F304000008C434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E3E16FD1F304000008C434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5E3E16FF1F304000008C434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Polar Pattern Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgedubrik.Polar-Pattern-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E3E17001F304000008C434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Polar Pattern Explorer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgedubrik.Polar-Pattern-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E3E17021F304000008C434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Polar Pattern ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgedubrik.Polar-Pattern-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polar Pattern Explorer.app/Contents/MacOS/Polar Pattern Explorer";
+			};
+			name = Debug;
+		};
+		5E3E17031F304000008C434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Polar Pattern ExplorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgedubrik.Polar-Pattern-ExplorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polar Pattern Explorer.app/Contents/MacOS/Polar Pattern Explorer";
+			};
+			name = Release;
+		};
+		5E3E17051F304000008C434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Polar Pattern ExplorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgedubrik.Polar-Pattern-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Polar Pattern Explorer";
+			};
+			name = Debug;
+		};
+		5E3E17061F304000008C434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Polar Pattern ExplorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.georgedubrik.Polar-Pattern-ExplorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Polar Pattern Explorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E3E16D61F303FFF008C434D /* Build configuration list for PBXProject "Polar Pattern Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3E16FC1F304000008C434D /* Debug */,
+				5E3E16FD1F304000008C434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3E16FE1F304000008C434D /* Build configuration list for PBXNativeTarget "Polar Pattern Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3E16FF1F304000008C434D /* Debug */,
+				5E3E17001F304000008C434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3E17011F304000008C434D /* Build configuration list for PBXNativeTarget "Polar Pattern ExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3E17021F304000008C434D /* Debug */,
+				5E3E17031F304000008C434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3E17041F304000008C434D /* Build configuration list for PBXNativeTarget "Polar Pattern ExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3E17051F304000008C434D /* Debug */,
+				5E3E17061F304000008C434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E3E16D31F303FFF008C434D /* Project object */;
+}
